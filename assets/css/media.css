@@ -1,0 +1,15 @@
+@media all and (max-width: 576px) {
+    #projects {
+        column-count: 1;
+    }
+
+    .card {
+        display: block;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #wrapper {
+        padding-top: 0px;
+    }
+}

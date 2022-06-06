@@ -1,0 +1,170 @@
+body {
+    background-image: url('C:/Users/arhyk/OneDrive/Documents/GitHub/carrd/assets/images/background.png');
+    background-size: cover;
+}
+
+:root {
+    --border-radius: 8px;
+}
+
+body {
+    font-family: "Inter", Arial, sans-serif;
+    line-height: 1.7em;
+    margin: 8px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+h3 {
+    font-size: 1.3em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: white;
+}
+
+li {
+    color: white;
+}
+
+/*a:hover, a:visited, a:link, a:active {
+	color: #000;
+}*/
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.outline {
+    border-radius: var(--border-radius);
+    border-width: 1px;
+    /*border-color: black;*/
+    border-color: #7f7f7f;
+    border-style: solid;
+}
+
+#header {
+    padding-bottom: 20px;
+    border-width: 0px;
+}
+
+#header p {
+    color: white;
+}
+
+#wrapper {
+    max-width: 900px;
+    padding-top: 60px;
+}
+
+#headshot {
+    width: 150px;
+    border-radius: var(--border-radius);
+}
+
+/* Socials */
+#socials {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    height: auto;
+    display: inline-flex;
+    align-items: center;
+}
+
+.btn-body {
+    height: 24px;
+    min-width: 24px;
+    padding: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-a {
+    height: 24px;
+}
+
+.logo-img {
+    height: 100%;
+}
+
+/* Projects */
+#about-me {
+    column-count: 2;
+    column-fill: balance;
+    orphans: 1;
+    column-gap: 20px;
+}
+
+.card {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-width: 1px;
+    border-color: rgba(127, 127, 127, 0.3);
+    box-shadow: rgba(127, 127, 127, 0.3) 4px 4px 8px 0px;
+}
+
+.card-header h3 {
+    display: inline;
+    color: white;
+}
+
+.card-header span {
+    color: dimgrey;
+    color: white;
+}
+
+.card-header span {
+    margin-left: 0.1em;
+    color: white;
+}
+
+.card-body p {
+    margin-bottom: 0px;
+    color: white;
+}
+
+.card-body * {
+    margin-top: 10px;
+}
+
+.card-footer {
+    margin-top: 10px;
+}
+
+.card-footer a {
+    padding: 6px 8px 6px 8px;
+    margin-right: 5px;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    color: white;
+}
+
+.card-footer a img {
+    height: 1em;
+    position: relative;
+    top: 0.15em;
+}
+
+.email {
+    color: white;
+}
